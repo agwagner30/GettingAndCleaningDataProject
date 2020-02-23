@@ -43,6 +43,7 @@ activity_labels <- read.table('./UCI HAR Dataset/activity_labels.txt', header = 
 activity_labels <- as.character(activity_labels[,2])
 data_sect$activity <- activity_labels[data_sect$activity]
 
+
 ###Rename a few categories for the headings to make more sense
 newname <- names(data_sect)
 newname <- gsub("[(][)]", "", newname)
