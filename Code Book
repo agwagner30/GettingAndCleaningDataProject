@@ -1,0 +1,19 @@
+cat-	Has the feature categories
+data_train_x-	Contains training data
+data_train_y-	Contains training data
+data_train_subject-	Contains training data
+data_train-	Creates a data frame of the training data
+names(data_train)-	Contains names of training data
+data_test_x-	Contains testing data
+data_test_y-	Contains testing data
+data_test_subject-	Contains testing data
+data_test-	Creates a data frame of the testing data
+names(data_test)-	Contains names of testing data
+data_combined-	Combines the training and testing data into one table
+mean_std_dev-	Finds/matches mean and std in the cat file
+data_sect-	Goes through data_combined and takes out the mean and standard deviation values
+activity_labels-	Reads in activity labels
+newname-	This renames some of the categories to make them clearer
+final_dataset-	This is the final dataset we have created
+
+Comments how this all runs together can be found in run_analysis.R
